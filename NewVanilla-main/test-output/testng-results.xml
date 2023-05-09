@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="179893" started-at="2023-05-08T15:31:01 IST" finished-at="2023-05-08T15:34:00 IST">
+    <groups>
+    </groups>
+    <test name="Chrometest" duration-ms="179893" started-at="2023-05-08T15:31:01 IST" finished-at="2023-05-08T15:34:00 IST">
+      <class name="com.frame.qa.sampleTestcases.StoreHomePageTest">
+        <test-method status="PASS" signature="SettingReportEnv()[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="SettingReportEnv" is-config="true" duration-ms="421" started-at="2023-05-08T15:31:00 IST" finished-at="2023-05-08T15:31:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingReportEnv -->
+        <test-method status="PASS" signature="initialization(java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="initialization" is-config="true" duration-ms="15245" started-at="2023-05-08T15:31:01 IST" finished-at="2023-05-08T15:31:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=StoreHomePageTest.selectWomenCatagory()[pri:1, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="setUp" is-config="true" duration-ms="84" started-at="2023-05-08T15:31:16 IST" finished-at="2023-05-08T15:31:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectWomenCatagory()[pri:1, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="selectWomenCatagory" duration-ms="9286" started-at="2023-05-08T15:31:16 IST" finished-at="2023-05-08T15:31:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectWomenCatagory -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="tearDown" is-config="true" duration-ms="348" started-at="2023-05-08T15:31:25 IST" finished-at="2023-05-08T15:31:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectWomenCatagory status=SUCCESS method=StoreHomePageTest.selectWomenCatagory()[pri:1, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="initialization" is-config="true" duration-ms="7019" started-at="2023-05-08T15:31:26 IST" finished-at="2023-05-08T15:31:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=StoreHomePageTest.SearchProduct()[pri:2, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="setUp" is-config="true" duration-ms="21" started-at="2023-05-08T15:31:33 IST" finished-at="2023-05-08T15:31:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SearchProduct()[pri:2, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="SearchProduct" duration-ms="15162" started-at="2023-05-08T15:31:33 IST" finished-at="2023-05-08T15:31:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="tearDown" is-config="true" duration-ms="513" started-at="2023-05-08T15:31:48 IST" finished-at="2023-05-08T15:31:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchProduct status=SUCCESS method=StoreHomePageTest.SearchProduct()[pri:2, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="initialization" is-config="true" duration-ms="3966" started-at="2023-05-08T15:31:48 IST" finished-at="2023-05-08T15:31:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=StoreHomePageTest.selectLanguange()[pri:3, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="setUp" is-config="true" duration-ms="11" started-at="2023-05-08T15:31:52 IST" finished-at="2023-05-08T15:31:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectLanguange()[pri:3, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="selectLanguange" duration-ms="5026" started-at="2023-05-08T15:31:52 IST" finished-at="2023-05-08T15:31:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLanguange -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="tearDown" is-config="true" duration-ms="349" started-at="2023-05-08T15:31:57 IST" finished-at="2023-05-08T15:31:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectLanguange status=SUCCESS method=StoreHomePageTest.selectLanguange()[pri:3, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="initialization" is-config="true" duration-ms="3386" started-at="2023-05-08T15:31:58 IST" finished-at="2023-05-08T15:32:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=StoreHomePageTest.productCheckout()[pri:4, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="setUp" is-config="true" duration-ms="10" started-at="2023-05-08T15:32:01 IST" finished-at="2023-05-08T15:32:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="productCheckout()[pri:4, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="productCheckout" duration-ms="51913" started-at="2023-05-08T15:32:01 IST" finished-at="2023-05-08T15:32:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productCheckout -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="tearDown" is-config="true" duration-ms="334" started-at="2023-05-08T15:32:53 IST" finished-at="2023-05-08T15:32:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productCheckout status=SUCCESS method=StoreHomePageTest.productCheckout()[pri:4, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="initialization" is-config="true" duration-ms="17014" started-at="2023-05-08T15:32:53 IST" finished-at="2023-05-08T15:33:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=StoreHomePageTest.SelectEachCatagory()[pri:6, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="setUp" is-config="true" duration-ms="29" started-at="2023-05-08T15:33:10 IST" finished-at="2023-05-08T15:33:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="SelectEachCatagory()[pri:6, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="SelectEachCatagory" duration-ms="18" started-at="2023-05-08T15:33:10 IST" finished-at="2023-05-08T15:33:10 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.frame.qa.utils.Excel.getColumnValue(Excel.java:95)
+at com.frame.qa.sampleTestcases.StoreHomePageTest.SelectEachCatagory(StoreHomePageTest.java:90)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectEachCatagory -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="tearDown" is-config="true" duration-ms="290" started-at="2023-05-08T15:33:28 IST" finished-at="2023-05-08T15:33:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectEachCatagory status=FAILURE method=StoreHomePageTest.SelectEachCatagory()[pri:6, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialization(java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="initialization" is-config="true" duration-ms="14141" started-at="2023-05-08T15:33:29 IST" finished-at="2023-05-08T15:33:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=StoreHomePageTest.TestAngularApp()[pri:7, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="setUp" is-config="true" duration-ms="20" started-at="2023-05-08T15:33:43 IST" finished-at="2023-05-08T15:33:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestAngularApp()[pri:7, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="TestAngularApp" duration-ms="17127" started-at="2023-05-08T15:33:43 IST" finished-at="2023-05-08T15:34:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAngularApp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="tearDown" is-config="true" duration-ms="325" started-at="2023-05-08T15:34:00 IST" finished-at="2023-05-08T15:34:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestAngularApp status=SUCCESS method=StoreHomePageTest.TestAngularApp()[pri:7, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="TearDownReportEnv()[pri:0, instance:com.frame.qa.sampleTestcases.StoreHomePageTest@691939c9]" name="TearDownReportEnv" is-config="true" duration-ms="599" started-at="2023-05-08T15:34:01 IST" finished-at="2023-05-08T15:34:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownReportEnv -->
+      </class> <!-- com.frame.qa.sampleTestcases.StoreHomePageTest -->
+    </test> <!-- Chrometest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

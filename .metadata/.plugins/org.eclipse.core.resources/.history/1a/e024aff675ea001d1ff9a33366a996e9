@@ -1,0 +1,14 @@
+
+browser=Chrome
+#url=https://informa-stage65.adobecqms.net/content/markets/generic/fast-track/en/v2-components-testing1.html
+#url=http://demo-store.seleniumacademy.com/
+#url=http://juliemr.github.io/protractor-demo/
+#url=https://online.hbs.edu/
+#url=https://www.bergerpaints.com/
+#url=https://ticuser:admin@dev.irvinecompanyoffice.com
+#url=https://www.irvinecompanyoffice.com
+#url=https://ticuser:admin@stage.irvinecompanyapartments.com
+#url=https://www.irctc.co.in/nget/train-search
+url=https://author-informa-qa65.adobecqms.net/aem/start.html
+Tester=Suraj
+Projectname=Testing COE
